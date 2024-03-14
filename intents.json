@@ -1,0 +1,560 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": 
+      ["Hi","Hey","How are you","Is anyone there?","Hello","Good day"],
+      "responses": ["Hello, thanks for visiting VIT Chatbot Assistance. What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": 
+      ["See you later, thanks for visiting","Have a nice day","Bye! Come back again soon."]
+    },
+    {
+      "tag": "fillers",
+      "patterns": ["okay", "Yes", "Yeah","ok"],
+      "responses": 
+      ["Hope your query is answered...\n Do you need to know any other details?"]
+    },
+    {
+      "tag": "No",
+      "patterns": ["No"],
+      "responses": 
+      ["Okay Thank you for visiting..."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "college details",
+      "patterns": ["College details",
+        "Details about VIT",
+        "Info about VIT",
+        "May I know the details about VIT?",
+        "May I know the details about VIT campus?",
+        "details about VIT chennai?",
+        "chennai campus details?",
+        "chennai campus information"
+      ],
+      "responses": [
+        "Take a look at the list of amenities available in the campus, Which one would you like to know about? \n \n Hostel \n Auditorium \n Food Court \n Library \n Club Activities \n Sports Activities"]
+    },
+    {
+      "tag": "website link",
+      "patterns": [
+      "VIT web link",
+      "VIT website",
+      "can i get VIT website link?"],
+      "responses":["Please visit this website to get more details \n <a href='https://vit.ac.in/' target='_blank'>click here</a>"] 
+    },
+    {
+      "tag": "hostel link",
+      "patterns": [
+      "VIT hostel link",
+      "VIT hostel website",
+      "can i get VIT hostel website link?"],
+      "responses":["Please visit this website to get more details about VIT hostels \n <a href='https://vit.ac.in/campuslife/hostels' target='_blank'>click here</a>"] 
+    },
+    {
+      "tag": "code of conduct",
+      "patterns": [
+      "code of conduct in VIT",
+      "VIT rules",
+      "rules in VIT ",
+      "code of conduct in VIT ",
+      "can i know VIT rules?"],
+      "responses":["Please visit this website to get details about VIT Code of Conduct \n <a href='https://vit.ac.in/sites/default/files/Student-Code-of-Conduct.pdf' target='_blank'>click here</a>"] 
+    },
+    {
+      "tag": "health center",
+      "patterns": [
+      "health center",
+      "VIT health centre",
+      "VIT health centre details",
+      "can i get health centre details?"],
+      "responses":["Please visit this website to get details about VIT health center \n <a href='https://vit.ac.in/campuslife/healthservices' target='_blank'>click here</a>"] 
+    },
+    {
+      "tag": "guest house VIT",
+      "patterns": [
+      "guest house",
+      "VIT guest house",
+      "VIT guest house details",
+      "can i get guest house details?"],
+      "responses":["VIT guest house: \n \n This is an elegant building which has 116 furnished rooms.\n\n All rooms are equipped with luxurious wood furniture and modern amenities for comfort and are individually air-conditioned. \n\n Cable television with satellite programs is provided in all rooms.\n \n Hot and cold water facilities in the bathrooms, comfortable mattresses and cosy pillows are standard amenities in all rooms.\n \n Internet facilities are provided in the rooms. \n \n Please visit this website to get details about VIT guest house \n <a href='https://vit.ac.in/guest-house' target='_blank'>click here</a>"] 
+    },
+    {
+      "tag": "gazebo",
+      "patterns": [
+      "vit gazebo",
+      "gazebo image",
+    "picture of canteen",
+    "picture of gazebo",
+      "vit gazebo images"],
+      "responses":["Picture of Gazebo in VIT chennai \n <a href='https://miro.medium.com/max/1400/1*hHqEK7SKVFqHYyIUw6Y74A.jpeg' target='_blank'> <img src='https://miro.medium.com/max/1400/1*hHqEK7SKVFqHYyIUw6Y74A.jpeg' alt='gazebo' border='0' height='300' width='300' ></a>"]  
+    },
+    {
+      "tag": "gym khaana",
+      "patterns": [
+      "vit gym khaana",
+      "gym khaana image",
+      "vit gym khaana images"],
+      "responses":["Picture of Gym Khaana in VIT Vellore \n <img src='https://chennai.vit.ac.in/wp-content/uploads/2020/07/GymKhaana-4.jpg' alt='gymkhaana' border='0' height='300' width='300' >"]  
+    },
+    {
+      "tag": "Technology Tower",
+      "patterns": [
+      "TT",
+      "TT image",
+      "vit Vellore TT"],
+      "responses":["Picture of Technology Tower in VIT vellore \n <img src='https://upload.wikimedia.org/wikipedia/commons/4/43/Technology_Tower%28VIT%29.jpg' alt='Technology Tower' border='0' height='300' width='300'>"]  
+    },
+    {
+      "tag": "SJT",
+      "patterns": [
+      "SJT",
+      "SJT image",
+      "Silver Jubile Tower"],
+      "responses":["Picture of Aavin in VIT chennai \n <img src='https://vit.ac.in/crsi/images/vit-campus3.jpg' alt='aavin' border='0' height='300' width='300' target = '_blank'>"]  
+    },
+    {
+      "tag": "dominos",
+      "patterns": [
+      "vit dominos",
+      "dominos image",
+      "vit dominos images"],
+      "responses":["Picture of dominos in VIT Vellore \n <img src='https://lh3.googleusercontent.com/p/AF1QipOLprSPJq4KQxz1umMZ96XLbFuz4XTPSLBg9GBc=s1360-w1360-h1020' alt='dominos' border='0' height='300' width='300' target = '_blank'>"]  
+    },
+    {
+      "tag": "All mart",
+      "patterns": [
+      "All mart",
+      "All mart image",
+      "vit vellore mart",
+      "mart near vit"],
+      "responses":["Picture of All Mart \n <img src='https://vit.ac.in/system/files/Allmart_Grocery%20Stores_0.JPG' alt='Vmart' border='0' height='300' width='300'>"]  
+    },
+    {
+      "tag": "Grading pattern",
+      "patterns": [
+      "vit grading system",
+      "vit grading pattern",
+      "grading points",
+      "grading system"],
+      "responses":["Grading system in VIT \n <a href='https://i.ibb.co/L9pxpd5/3.jpg' target = '_blank'><img src='https://i.ibb.co/L9pxpd5/3.jpg' alt='grade system' border='0' height='300' width='300'></a>"]  
+    },
+    {
+      "tag": "Grading range",
+      "patterns": [
+      "vit letter grading",
+      "vit grading range",
+      "grading methods in vit",
+      "what is the grade for my mark?",
+      "what grade i will get if my mark is in range 80 to 90?"],
+      "responses":["Letter Grading system in VIT \n <a href='https://i.ibb.co/6ykCytq/2.jpg' target = '_blank'><img src='https://i.ibb.co/6ykCytq/2.jpg' alt='letter grade' border='0' height='300' width='300'></a>"]  
+    },
+    {
+      "tag": "PRP",
+      "patterns": [
+      "PRP",
+      "VIT Vellore PRP",
+      "Pearl Research Block",
+      "PRP Block"],
+      "responses":["PRP is still under construction academic building \n <img src='https://vit.ac.in/system/files/Pearlblock-opti.jpg' alt='set conference marking' border='0' height='300' width='300' ></a>"]  
+    },
+    {
+      "tag": "placement eligibility",
+      "patterns": [
+      "eligibility for attending placement",
+      "placement eligibility",
+      "placement rules in VIT for attending recruitment",
+      "dream offer","super dream offer","regular offer"],
+      "responses":["VIT Placement Eligibility \n <a href='https://i.ibb.co/VHhhTfn/1.jpg' target = '_blank'><img src='https://i.ibb.co/VHhhTfn/1.jpg' alt='placement eligibility' border='0' height='300' width='300' ></a>"]  
+    },
+    {
+      "tag": "video",
+      "patterns": [
+      "vit tour",
+      "tour video",
+      "vit campus tour video"],
+      "responses":["VIT Vellore Campus Tour \n <a href ='https://campustour.vit.ac.in/'></a>"]  
+    },
+    {
+      "tag": "boys and girls gym",
+      "patterns": ["gym"],
+      "responses": ["Boys or Girls?--Can you specify clearly?"]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+      "hostel",
+      "hostel details",
+      "information about hostel",
+      "May I know details about hostel?"],
+      "responses": ["Which hostel details you need to know? \n\n  A block : Boys Hostel \n B block : Girls Hostel"]
+    },
+    
+    {
+      "tag": "girls hostel",
+      "patterns": [ 
+      "girls",
+      "B block",
+      "girls hostel details",
+      "girls hostel",
+      "information about girls hostel",
+      "May I know details about girls hostel?"],
+      "responses": [
+        "Choose the details you want to know about GIRLS HOSTEL \n\n Girls Hostel Authorities \n Girls hostel Mess \n Girls Hostel Gym"]
+    },
+    {
+      "tag": "girls hostel authorities",
+      "patterns": [
+      "girls hostel authorities",
+      "authorities",
+      "information about girls hostel authorities",
+      "May I know details about girls hostel authorities?",
+      "girls hostel warden details"],  
+      "responses": [
+        "Hostel Office\nLocation: B block First Floor\nParent's Waiting Area\nLocation: First floor\nWarden details\nDr. S. Mythili 0416 220 2895\nAssistant Managers\nDr. K. Saranya 0416 220 2706"
+      ]
+    },
+    
+    {
+        "tag": "girls hostel mess",
+        "patterns": [
+        "mess timings",
+        "girls hostel food",
+        "girls hostel canteen",
+        "information about girls hostel canteen",
+        "May I know the timings of girls hostel canteen?",
+        "girls hostel canteen timings"],
+        "responses": ["  \n Night canteen  \n   Timings : 10:00 PM-1:00 AM  \n   \n Mess  \n  &emsp;&emsp; Location :B block Ground floor  \n Timings:  \n  &emsp;&emsp; Breakfast : 7.00 AM - 9.00 AM  \n  &emsp;&emsp;  Lunch : 12.00 PM - 2.00 PM  \n  &emsp;&emsp;  Snacks : 4.30 PM - 6.00 PM  \n  &emsp;&emsp;  Dinner: 7.00 PM - 9.00 PM  \n   \n Visa Mart  \n &emsp;&emsp;   Location : Ground floor (11 AM)"]
+      } , 
+
+    {
+      "tag": "boys hostel",
+      "patterns": [ 
+      "boys",
+      "A block",
+      "boys hostel details",
+      "information about boys hostel",
+      "May I know details about boys hostel?"],
+      "responses": ["  \n Choose the details you want to know about BOYS HOSTEL   \n  \n Boys Hostel Authorities  \nBoys Hostel Mess \nBoys Hostel Gym"]
+    },
+    {
+      "tag": "boys hostel authorities",
+      "patterns": [ 
+      "boys hostel authorities",
+      "authorities",
+      "information about boys hostel authorities",
+      "May I know details about boys hostel authorities?",
+      "boys hostel warden details"],
+      "responses": [
+        "Hostel Office\n  Location: Ground Floor\n\nParent's Waiting Area\n  Location: Ground floor\n\nWarden details\n  Men's Hostel Office Staff\n    Mr. R. Senthil Kumar 0416 - 220 2525 / 2526\n    Srinivas 9087689211"
+      ]
+    },
+    {
+      "tag": "boys hostel gym",
+      "patterns": [ 
+      "boys hostel gym",
+      "information about boys hostel gym",
+      "May I know the timings of boys hostel gym?",
+      "boys hostel gym timings","A block gym"],
+      "responses": ["  \n Gym details  \n  &emsp;&emsp;  Location:A block First floor \n \n Timings:  \n Monday-Friday  \n &emsp;&emsp;  Morning 6:00 AM - 8:00 AM  \n  &emsp;&emsp; Evening 4:00 AM- 8:00 PM  \n   \n Saturday and Sunday   \n &emsp;&emsp;  Morning 6:00 AM - 9:00 AM  \n &emsp;&emsp;  Evening 3:00 AM- 8:00 PM"]
+      },
+      {
+        "tag": "boys hostel mess",
+        "patterns": [ 
+        "mess timings",
+        "boys hostel food",
+    "boys hostel mess",
+        "information about boys hostel canteen",
+        "May I know the timings of boys hostel canteen?",
+        "boys hostel canteen timings"],
+        "responses": [" \n Night canteen \n  &emsp;&emsp;  Location:A block Ground floor \n &emsp;&emsp;  Timing : 10:00 PM-1:00 AM \n \n Mess \n  &emsp;&emsp; Location :A block Ground floor \n Timing: \n  &emsp;&emsp; Breakfast : 7.00 AM - 9.00 AM \n  &emsp;&emsp; Lunch : 12.00 PM - 2.00 PM \n  &emsp;&emsp; Snacks : 4.30 PM - 6.00 PM \n  &emsp;&emsp;  Dinner: 7.00 PM - 9.00 PM \n "]
+      },         
+      
+      {
+        "tag":"sports",
+        "patterns":[
+        "Sports",
+        "Games",
+        "Physical Activities",
+        "What are the sports activities that are available in VIT?",
+        "sports acitivities in VIT"],
+        "responses":["Are you interested to play indoor or outdoor games?"]
+
+      },
+
+      {
+        "tag":"Indoor",
+        "patterns":[
+        "Indoor",
+        "Indoor games",
+        "Indoor activities"],
+        "responses":["Indoor games available in Vellore campus: \n \n Tennis \n Chess \n Gym \n Table tennis \n Weight lifting \n\nPlease visit this website to get more details about VIT sports activities \n <a href='https://vit.ac.in/campuslife/sports' target='_blank'>click here</a>"]
+
+      },
+
+      {
+        "tag":"Outdoor",
+        "patterns":[
+        "Outdoor",
+        "Outdoor games",
+        "Outdoor activities"],
+        "responses":["  \n Outdoor games available in Vellore campus:   \n  \n Atheletic \n Badminton  \n Ball badminton \n  Basketball \n Cricket \n  Hockey \n Handball \n Tennis \n Throw ball \n Volley ball \n Foot ball \n Swimming \n\n Please visit this website to get more details about VIT sports activities \n <a href='https://vit.ac.in/campuslife/sports' target='_blank'>click here</a>"]
+
+      },
+
+      {
+        "tag":"Auditorium",
+        "patterns":[
+        "Where is Anna Auditorium?",
+        "Auditorium","Where is Anna Auditorium?",
+        "Auditoriums in VIT Vellore","Auditoriums in VIT campus",
+        "Auditoriums in Vellore campus"],
+        "responses":["  \n Anna Auditorium  - Near Main Building \n Channa Reddy Auditorium VIT - ground floor MB  \n Dr. Ambedkar Auditorium (Seating capacity – 198) \n Kamaraj Auditorium (Seating capacity – 128) \n Multi-purpose Hall (at Gandhi block) (Seating capacity –462 ) \n "]
+
+      },
+
+      {
+        "tag":"Library",
+        "patterns":[
+        "Where is library?",
+        "Periyar Library",
+        "Library",
+        "VIT Vellore library",
+        "Library Timings"],
+        "responses":[" \n Central Library Vellore campus  \n &emsp;&emsp; Location : Beside main building  \n  \n Timings:  \n &emsp;&emsp; Monday-Friday 7.30 AM - 12.00 AM  \n &emsp;&emsp; Saturday,Sunday 7.30 AM -  9.00 PM \n \n To know more details about Library \n <a href='https://vit.ac.in/academics/library' target='_blank'>click here</a>"]
+      },
+      {
+        "tag":"Xerox Shop",
+        "patterns":["xerox shops",
+        "xerox shop inside VIT",
+        "Xerox",
+        "spiral binding",
+        "lamination",
+        "printout",
+        "colour print"],
+        "responses":["1. TT ground floor \n 2. Beside Anna Auditorium \n "]
+      },
+      {
+        "tag":"Food court",
+        "patterns":[
+        "Food",
+        "Where is canteen?",
+        "Where I can get food?"],
+        "responses":["  \n What kind of food who wish to have?  \n \n Breakfast  \n Lunch  \n Snacks  \n Packed foods  \n Cool drinks  \n Ice-cream  \n Fresh juices"]
+
+      },
+
+      {
+        "tag":"Breakfast",
+        "patterns":[
+        "Where I can get breakfast?",
+        "Breakfast"],
+        "responses":["  \n You can get Breakfast in \n &emsp;&emsp; Gymkhana (8.15 am - 11.00 am)  \n &emsp;&emsp; Gazebo (9.00 am - 11.00 am)"]
+
+      },
+
+      {
+        "tag":"Lunch",
+        "patterns":[
+        "Where I can get Lunch?",
+        "Lunch"],
+        "responses":["  \n You can get Lunch in \n &emsp;&emsp; Gymkhana (12.30 pm - 2.30 pm)  \n&emsp;&emsp; Gazebo (12.30 pm - 2.30 pm)"]
+
+      },
+
+      {
+        "tag":"Snacks",
+        "patterns":[
+        "Where I can get snacks?",
+        "snacks"],
+        "responses":["  \n You can get snacks in  \n &emsp;&emsp; Gymkhaana (3.00 pm - 7.00 pm)  \n &emsp;&emsp; Gazebo (3.00 pm - 7.00 pm)   \n &emsp;&emsp; North Sqaure (1.00 pm - 6.00 pm)"]
+
+      },
+
+      {
+        "tag":"Cool drinks",
+        "patterns":[
+        "Where I can get cool drinks?",
+        "Cool drinks",
+        "Beverages",
+        "Soft drinks"],
+        "responses":["  \n You can get Cool drinks in  \n  &emsp;&emsp; All-Mart (10.00 am - 7.00 pm) \n &emsp;&emsp; Girls Hostel shop (10.00 am - 6.30 pm) \n &emsp;&emsp; Gazebo (11.00 am -6.00 pm) \n &emsp;&emsp; Gymkhaana (8.00 am - 6.30 pm)"]
+
+      },
+
+      {
+        "tag":"Fresh Juices",
+        "patterns":[
+        "Where I can get fresh juices?",
+        "Where I can get healthy drinks?",
+        "Fresh juice",
+        "Healthy drink"],
+        "responses":[" \n You can get Frech juice in  \n &emsp;&emsp; Foodys (8.00 am - 6.30 pm) \n &emsp;&emsp;Near Library corner (9.00 am - 6.00 pm)"]
+
+      },
+
+      {
+        "tag":"Ice cream",
+        "patterns":[
+        "Where I can get ice cream?",
+        "Ice cream"],
+        "responses":[" \n You can get Ice-cream in \n &emsp;&emsp; All-Mart (10.00 am - 7.00 pm) \n &emsp;&emsp; Lassi house (11.00 am - 6.00 pm) \n &emsp;&emsp; Foodys (10.00 am - 8.30 pm)"]
+
+      },
+      {
+        "tag": "club",
+        "patterns": [
+        "VIT clubs",
+        "club acitivities",
+        "club details",
+        "vit club details",
+        "student clubs",
+        "club information",
+        "number of clubs",
+        "clubs",
+        "may I know club details"],
+        "responses": [" \n STUDENT CLUBS  \n  \n 1.Arts and Cultural clubs \n 2.Sports and Fitness Clubs \n 3.Social Clubs \n 4.Technical Clubs \n 5.Other Clubs \n To know more details <a href='https://vit.ac.in/campuslife/studentswelfare' target='_blank'>click here</a>"]
+      },
+      
+      {
+        "tag": "Health and Fitness",
+        "patterns": [
+        "fitness",
+        "health",
+        "health and fitness"],
+        "responses": ["\n FITNESS AND HEALTH CLUBS in VIT \n \n 1.Yoga Club \n 2.Trekking Club \n 3.Health Club"]
+      },
+      
+      {
+        "tag": "technical",
+        "patterns": [
+        "technical",
+        "technicalclubs",
+        "technical club"],
+        "responses": [" \n TECHNICAL CLUBS in VIT \n\n 1.Android Club \n 2.CIVITEK Club \n 3.Code Y Gen Club \n 4.Linux Club \n 5.Robotics Club \n 6.EUREKA! Physics Club"]
+      },
+      {
+        "tag": "otherclubs",
+        "patterns": [
+        "other clubs",
+        "other club",
+        "otherclub"],
+        "responses": ["  \n These are some more clubs available in VIT \n \n 1.Culinary Club \n 2.Vitc Film Society \n 3.Telugu Literary Association \n 4.Culture And Heritage Club \n 5.National Service Scheme \n 6.Energy And Environmental Protection Club \n 7.Enactus Club \n 8.Aerospace Club \n 9.Open Source Programming Club \n 10.Data Analytics Club \n 11.Open Foam Cfd Club \n 12.Aerodynamics Club \n 13.Vitcc Network And Communication Club \n 14.Game Development Club \n 15.Microsoft Innovation Club"]
+      },
+
+      {
+        "tag":"places to visit",
+        "patterns":[
+        "Where I can go during weekends?",
+        "Nearby places to visit in VIT",
+        "Nearby spots for fun",
+        "Places near VIT to go for outing"],
+        "responses":[" \n These are the places in vellore where you can visit during weekends: \n  \n Vellore Fort \n Palamati Hills \n Pondicherry \n Historical Places \n Chennai Beaches \n Library \n  \n Choose any place you wish to visit..."]
+      },
+      {
+        "tag":"Malls",
+        "patterns":[
+        "malls",
+        "mall",
+        "where is mall",
+        "malls near VIT",
+        "Is there any mall near VIT",
+        "malls in chennai",
+        "nearby malls"],
+        "responses":[" \n These are the malls that can be visited in one hour or two hours time: \n \n 1.Marina Mall \n <a href = 'https://maps.app.goo.gl/KtkxNaTfF3Zw6FBM9'> click here </a> to see directions from VIT, Chennai to Marina Mall in Google Maps. \n \n <a href='https://imgbb.com/'><img src='https://i.ibb.co/1zS6bFF/marina-mall.jpg' alt='marina-mall' border='0' height='300' width='400'></a> \n \n 2.Forum Vijaya Mall \n <a href = 'https://bit.ly/3uZZwyM'> click here </a> to see directions from VIT, Chennai to Forum Vijaya Mall in Google Maps. \n \n <a href='https://ibb.co/GRvzF8S'><img src='https://i.ibb.co/SBXFJMC/forum-vijaya-mall.jpg' alt='forum-vijaya-mall' border='0' height='300' width='400'></a> \n \n 3.Phoenix Mall \n <a href = 'https://maps.app.goo.gl/qdtgETHjXtFu8WhN8'> click here </a> to see directions from VIT, Chennai to Pheonix Mall in Google Maps. \n \n <a href='https://ibb.co/VBvzxRq'><img src='https://i.ibb.co/h8K4cbm/phoenix-mall.jpg' alt='phoenix-mall' border='0' height='300' width='400'></a> \n \n 4.Vivira Mall \n <a href = 'https://maps.app.goo.gl/YMkhFEGPGHpYafSv5'> click here </a> to see directions from VIT, Chennai to Forum Vivira Mall in Google Maps. \n \n <a href='https://ibb.co/PTKYtC6'><img src='https://i.ibb.co/hXbMC8m/vivira-mall.jpg' alt='vivira-mall' border='0' height='300' width='400'></a> \n \n5.V R Mall \n <a href = 'https://maps.app.goo.gl/wrPQX7Fvm68CkVGA9'> click here </a> to see directions from VIT, Chennai to Forum VR Mall in Google Maps. \n \n <a href='https://ibb.co/68Qd1nL'><img src='https://i.ibb.co/hc0qZ7w/VR-mall.jpg' alt='VR-mall' border='0' height='300' width='400'></a> \n 6.Express Avenue \n <a href = 'https://maps.app.goo.gl/wrPQX7Fvm68CkVGA9'> click here </a> to see directions from VIT, Chennai to Express Avenue Mall in Google Maps. \n \n <a href='https://ibb.co/pnhwrRF'><img src='https://i.ibb.co/yV4PBYj/xpress-avenue-mall.jpg' alt='xpress-avenue-mall' border='0' height='300' width='400'></a> \n \n"]
+      },
+      {
+        "tag":"Beaches",
+        "patterns":[
+        "beaches near VIT",
+        "Is there any beach near VIT",
+        "beach in chennai",
+        "nearby beach"],
+        "responses":[" \n These are the beaches that can be visited in one hour or two hours time: \n  \n MuthuKadu beach \n Kovalam beach \n Uthandi beach \n Marina beach \n Elliot's beach"]
+      },
+      {
+        "tag":"Historical places",
+        "patterns":[
+        "historical places",
+        "Historical places near VIT",
+        "Is there any Historical places near VIT",
+        "Historical places in chennai",
+        "nearby Historical places"],
+        "responses":[" \n These are the Historical places that can be visited in one hour or two hours time: \n  \n 1.Mahabalipuram \n <a href = 'https://goo.gl/maps/x6inbY3hcYvFefFu5'> click here </a> to see directions from VIT, Chennai to Mahabalipuram in Google Maps. \n \n <a href='https://imgbb.com/'><img src='https://i.ibb.co/cxNmV1P/mahabalipuram.jpg' alt='mahabalipuram' border='0' height='300' width='400'></a> \n \n 2.Dakshan Chitra \n <a href = 'https://goo.gl/maps/KsRQgCE9Z4kuq7MJA'> click here </a> to see directions from VIT, Chennai to Dakshan Chitra in Google Maps. \n \n <a href='https://ibb.co/WkC70DC'><img src='https://i.ibb.co/BykvG4k/dhakshan-chitra.webp' alt='dhakshan-chitra' border='0' height='300' width='400'></a> \n \n 3.Anna Centenary Library  \n <a href = 'https://goo.gl/maps/3cjRiNtwFPUy7Yhp7'> click here </a> to see directions from VIT, Chennai to Anna Centenary Library in Google Maps.\n \n <a href='https://imgbb.com/'><img src='https://i.ibb.co/MgnmgbT/Anna-Centenary-Library.jpg' alt='Anna-Centenary-Library' border='0' height='300' width='400'></a> \n \n 4.Connemara Public library \n <a href = 'https://goo.gl/maps/qXTQqVybqJBSmNgd8'> click here </a> to see directions from VIT, Chennai to Connemara Public library in Google Maps. \n \n <a href='https://ibb.co/rxH4gH5'><img src='https://i.ibb.co/R3cz1cQ/Connemara-Public-library.jpg' alt='Connemara-Public-library' border='0' height='300' width='400'></a> \n \n 5.Birla Planatorium \n <a href = 'https://goo.gl/maps/tMLnamBsDN7NdoyWA'> click here </a> to see directions from VIT, Chennai to Birla Planatorium in Google Maps. \n \n <a href='https://imgbb.com/'><img src='https://i.ibb.co/php96YC/Birla-Planatorium.jpg' alt='Birla-Planatorium' border='0' height='300' width='400'></a> \n \n 6.Government Museum \n <a href = 'https://goo.gl/maps/rA1qL5465waTD9fW6'> click here </a> to see directions from VIT, Chennai to Government Museum in Google Maps. \n \n <a href='https://imgbb.com/'><img src='https://i.ibb.co/RyD6nj8/Government-Museum.jpg' alt='Government-Museum' border='0' height='300' width='400'></a> \n \n 7.Chennai Rail Museum \n <a href = 'https://goo.gl/maps/EJ27dRWxTGVhKHCo9'> click here </a> to see directions from VIT, Chennai to Chennai Rail Museum in Google Maps. \n \n <a href='https://imgbb.com/'><img src='https://i.ibb.co/bJ168tp/Chennai-Rail-Museum.jpg' alt='Chennai-Rail-Museum' border='0' height='300' width='400'></a> \n \n"]
+      },
+      {
+        "tag":"Amusement Parks",
+        "patterns":[
+        "Amusement Parks near VIT",
+        "Theme Parks",
+        "Is there any Amusement Parks near VIT",
+        "Amusement Parks in chennai",
+        "nearby Amusement Parks"],
+        "responses":[" \n These are the Amusement Parks that can be visited in one hour or two hours time: \n 1.VGP universal Kingdom \n <a href = 'https://goo.gl/maps/ZdSKBeuh5ho82VMC9'> click here </a> to see directions from VIT, Chennai to VGP Universal kingdom in Google Maps. \n \n <a href='https://imgbb.com/'><img src='https://i.ibb.co/4KdGB01/VGP-universal-kingdom.jpg' alt='VGP-universal-kingdom' border='0' height='300' width='400'></a> \n \n 2.MGM Dizee World \n <a href = 'https://goo.gl/maps/gzyfpuuWvAKLkBcK6'> click here </a> to see directions from VIT, Chennai to MGM Dizzee World in Google Maps.  \n \n <a href='https://ibb.co/fMxRjPn'><img src='https://i.ibb.co/VVqyfPQ/MGM-Dizee-World.jpg' alt='MGM-Dizee-World' border='0' height='300' width='400'></a> \n \n 3.Queens Land \n <a href = 'https://goo.gl/maps/TJR51ocRDeUsjpqW9'> click here </a> to see directions from VIT, Chennai to Queensland in Google Maps. \n \n <a href='https://imgbb.com/'><img src='https://i.ibb.co/xSj90jV/queens-land.jpg' alt='queens-land' border='0' height='300' width='400'></a> \n \n 4.Mayajal \n <a href = 'https://goo.gl/maps/FGUKY5JWepD71KuN8'> click here </a> to see directions from VIT, Chennai to Mayajaal in Google Maps. \n \n <a href='https://ibb.co/G99n4Zp'><img src='https://i.ibb.co/nBB6NXm/Mayajal.jpg' alt='Mayajal' border='0' height='300' width='400'></a> \n \n"]
+      },
+      {
+        "tag":"Parks",
+        "patterns":[
+        "Parks near VIT",
+        "Is there any Parks near VIT",
+        "Parks in chennai",
+        "nearby Parks to visit"],
+        "responses":[" \n These are the Parks that can be visited in one hour or two hours time: \n \n Aringar Anna Zoological Park \n \n src='https://i.ibb.co/N1qMdXH/Aringar-Anna-Zoological-Park.jpg' alt='Aringar-Anna-Zoological-Park' border='0' height='300' width='400'></a> \n \n Crocodile Bank \n \n <a href='https://imgbb.com/'><img src='https://i.ibb.co/F0x2YGZ/Crocodile-Bank.jpg' alt='Crocodile-Bank' border='0' height='300' width='400'></a> \n \n Vivekananda Park \n \n <a href='https://ibb.co/qgMFSPy'><img src='https://i.ibb.co/SmX7j9s/Vivekananda-Park.jpg' alt='Vivekananda-Park' border='0' height='300' width='400'></a> \n \n Sky Jumper Trampoline Park \n \n <a href='https://ibb.co/6gCrwpj'><img src='https://i.ibb.co/18W7QpF/Sky-Jumper-Trampoline-Park.jpg' alt='Sky-Jumper-Trampoline-Park' border='0' height='300' width='400'></a> \n \nSemmozhi Poonga \n \n <a href='https://imgbb.com/'><img src='https://i.ibb.co/p12mqzN/Semmozhi-Poonga.jpg' alt='Semmozhi-Poonga' border='0' height='300' width='400'></a> \n \n"]
+      },
+      {
+        "tag":"Temples",
+        "patterns":[
+        "temples",
+        "temples near vit",
+        "Temples near VIT",
+        "Is there any temples near VIT",
+        "Religeous Places near VIT",
+        "nearby temples to visit"],
+        "responses":[" \n These are the Temples that can be visited in one hour or two hours time: \n  \n Vinayagar Temple \n \n Veera Anjaneyar Temple \n \n Shirdi Sai Baba Temple \n  \n Shiva Vishnu Temple \n \n Vengadamangalam \n \n Parthasarathy Temple \n \n Ashtalakshmi Temple \n \n Marudheeshwarar Temple \n \n St Thomas Mount \n \n Santhome Church \n  \n Thousand Lights Shia Mosque"]
+      },
+      {
+        "tag":"Restaurants outside VIT",
+        "patterns":[
+        "hotels near VIT",
+        "Is there any good hotels near VIT",
+        "hotels outside VIT",
+        "good hotels to visit"],
+        "responses":[" \n These are the list of Hotels around VIT: \n  \n 1.Hotel Ganapathi &emsp; (5.0) \n 2.Punjabi Dhaba &emsp; (3.0) \n 3.Grounded Cafe &emsp; (4.6) \n 4.Luluva  &emsp; (3.6) \n 5.Kunti Anda ke Fundae  &emsp; (4.0) \n 6.Ellery Food Zone  &emsp; (4.2) \n 7.Hi-way Snacks  &emsp; (4.9) \n 8.Hotel Vivetha  &emsp;  (3.7) \n 9.Thalapakati  &emsp; (3.8) \n 10.Buhari Hotel  &emsp; (3.8) \n 11.Anjappar Chettinad  &emsp; (3.6) \n 12.Chennai Bhogam  &emsp; (3.6) \n 13.Kolkata Chat  &emsp; (4.0) \n 14.Faruuzi Multicuisine Restaurant  &emsp; (3.9) \n 15.Sangeetha Hotel  &emsp; (4.2)"]
+      },
+      {
+        "tag":"Supermarket outside VIT",
+        "patterns":[
+        "supermarket",
+        "super markets near VIT",
+        "Is there any good super markets near VIT",
+        "shops outside VIT",
+        "good super markets to buy things"],
+        "responses":[" \n These are the list of SuperMarkets around VIT: \n  \n All Market \n Balaji Store"]
+      },
+      
+      {
+        "tag":"Attendance eligibility criteria",
+        "patterns":[
+        "What is the attendance eligibity criteria?",
+        "Minimum attendance required to attend CAT exams",
+        "Minimum attendance required",
+        "How much attendance should I have to take up CAT and FAT exams?",
+        "Minimum attendance for FAT exam"],
+        "responses":[" \n These are the Minimum Attendance Eligibility Criteria: \n  \n CAT-1 (Continuous Assessment Test 1)  \n \n From the date of registration into the course to one day before the start of CAT-1 exams \n Minimum percentage of Attendance Required - 75% \n  \n CAT-2 (Continuous Assessment 2) \n From the date of registration into the course to one day before the start of CAT-2 exams \n Minimum percentage of Attendance Required - 75% \n  \n FAT theory or lab exams \n From the date of registration into the course to the last instructional day \n Minimum percentage of Attendance Required - 75%"]
+      }
+
+  ]
+}
+
+
+
+
+
